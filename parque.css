@@ -10,7 +10,7 @@ body {
     color: #fff;
 }
 
-/* ================= HERO ================= */
+
 .hero {
     height: 85vh;
     background: url("imagens/banner-principal.jpg") center / cover no-repeat;
@@ -44,7 +44,7 @@ body {
     max-width: 85%;
 }
 
-/* ================= BOTÃO PRINCIPAL ================= */
+
 .btn-primary {
     background: #ff2b2b;
     color: #fff;
@@ -63,7 +63,7 @@ body {
     transform: scale(1.04);
 }
 
-/* ================= ACESSOS ================= */
+
 .quick-access {
     padding: 35px 5%;
     display: grid;
@@ -96,7 +96,7 @@ body {
     text-align: center;
 }
 
-/* ================= RESERVAS ================= */
+
 .reservas {
     padding: 30px 5%;
     display: flex;
@@ -119,7 +119,7 @@ body {
     background: #ffdd00;
 }
 
-/* ================= PACOTES ================= */
+
 .pacotes {
     padding: 45px 5%;
 }
@@ -168,7 +168,7 @@ body {
     color: #000;
 }
 
-/* ================= PARQUES ================= */
+
 .parques {
     padding: 45px 5%;
 }
@@ -208,7 +208,7 @@ body {
     font-weight: 700;
 }
 
-/* ================= CTA ================= */
+
 .cta {
     background: url("imagens/cta-bg.jpg") center / cover no-repeat;
     padding: 60px 5%;
@@ -226,7 +226,7 @@ body {
     box-shadow: 0 12px 22px rgba(0,0,0,.35);
 }
 
-/* ================= FOOTER ================= */
+
 .footer {
     background: #000;
     padding: 16px;
@@ -234,18 +234,4 @@ body {
     font-size: 13px;
 }
 
-/* ================= MOBILE ================= */
-@media (max-width: 600px) {
-    .hero {
-        height: 70vh;
-    }
 
-    .logo {
-        width: 200px;
-    }
-
-    .btn-primary {
-        padding: 14px 38px;
-        font-size: 15px;
-    }
-}
